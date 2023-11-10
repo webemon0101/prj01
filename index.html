@@ -7,9 +7,11 @@
     <title>Document</title>
 </head>
 <body onload="init()">
-  体重:<input id="weight"> kg
-  身長:<input id="hegith"> cm
-  <button onclick="check()">check</button>
+  体重:<input id="weight" value="50"> kg
+  <br>
+  身長:<input id="height" value="150"> cm
+  <br>
+  <button onclick="calcBMI()">診断！</button>
 <ul>
     <li>BMI値は <span id="bmi"></span>　です。</li>
     <li>評価　<span id="comment"></span></li>

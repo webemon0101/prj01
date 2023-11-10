@@ -1,7 +1,7 @@
 function calcBMI(){
     let weight= document.getElementById("weight").value ;
     let height= document.getElementById("height").value ;
-    let comment="体重と身長を入力してね。"
+    let comment="体重と身長を入力してね。";
     let bmi = weight/((height/100)^2);
     if(bmi<18.5){
         comment="やせすぎ！！";
