@@ -1,0 +1,15 @@
+#pencil{
+    background-color: red;
+    width: 5cm;
+}
+
+#board{
+    background-color: black;
+}
+
+.cell{
+    background-color: green;
+    width:30px;
+    height:30px;
+}
+
